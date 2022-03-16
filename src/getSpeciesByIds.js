@@ -6,5 +6,5 @@ function getSpeciesByIds(...zooIds) {
     return '';
   });
 }
-console.log(getSpeciesByIds());
+
 module.exports = getSpeciesByIds;
