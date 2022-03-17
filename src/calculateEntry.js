@@ -19,7 +19,12 @@ function countEntrants(entrants) {
 }
 
 function calculateEntry(entrants) {
-  // sono
+  if (entrants !== undefined && Object.keys(entrants).length !== 0) {
+    const customers = countEntrants(entrants);
+    const { child, adult, senior } = customers;
+    return (child * prices.child) + (adult * prices.adult) + (senior * prices.senior);
+  }
+  return 0;
 }
 
 module.exports = { calculateEntry, countEntrants };
