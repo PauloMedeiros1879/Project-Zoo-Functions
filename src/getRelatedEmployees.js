@@ -9,9 +9,10 @@ function isManager(id) {
 
 function getRelatedEmployees(managerId) {
   if (isManager(managerId) === false) {
-    return employees.filter((related) => related.managers.includes(managerId)
-      .find((related2) => related2 === managerId));
+    throw new Error('O id inserido não é de uma pessoa colaboradora gerente!');
   }
+  return employees.filter((related) => related.managers.includes(managerId)
+    .find((related2) => related2 === managerId));
 }
 
 module.exports = { isManager, getRelatedEmployees };
