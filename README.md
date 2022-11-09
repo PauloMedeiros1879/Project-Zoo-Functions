@@ -1,16 +1,19 @@
-# 🚧 README em construção 🚧
+# Zoo Functions
+###### by _[Paulo Medeiros](https://www.linkedin.com/in/paulo-medeiros-dev1879/)_
 
-<!-- Olá, Tryber!
+## :man_technologist: Habilidades desenvolvidas
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+* Produzir código legível, conciso e expressivo utilizando as novas funcionalidades do ES6;
+* Utilizar as Higher Order Functions para manipular e criar arrays;
+* Escolher a Higher Order Function mais adequada para a obtenção de um resultado;
 
-É essencial que você preencha esse documento por conta própria, ok?
+## :hammer_and_wrench: Ferramentas Utilizadas
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+* JavaScript
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+## ⚙️ Como Executar
+Clone o repositório em uma pasta de preferência
 
--->
+```
+git@github.com:PauloMedeiros1879/Project-Zoo-Functions.git
+```
